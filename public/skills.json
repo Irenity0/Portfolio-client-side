@@ -1,0 +1,56 @@
+[
+    {
+        "name": "JavaScript",
+        "image": "/assets/skills/javascript.png",
+        "description": "I utilize it to craft dynamic and interactive web applications with clean and efficient code.",
+        "type": "core"
+    },
+    {
+        "name": "React",
+        "image": "/assets/skills/react.png",
+        "description": "Focused on building reusable components and optimizing performance in web applications.",
+        "type": "core"
+    },
+    {
+        "name": "Node.js",
+        "image": "/assets/skills/nodejs.png",
+        "description": "Currently exploring its capabilities for developing robust server-side applications.",
+        "type": "learning"
+    },
+    {
+        "name": "MongoDB",
+        "image": "/assets/skills/mongodb.png",
+        "description": "Used for designing scalable databases and managing flexible data structures effectively.",
+        "type": "core"
+    },
+    {
+        "name": "HTML & CSS",
+        "image": "/assets/skills/html-css.png",
+        "description": "Applied for building visually appealing and well-structured modern web interfaces.",
+        "type": "core"
+    },
+    {
+        "name": "Python",
+        "image": "/assets/skills/python.png",
+        "description": "Primarily utilized for scripting tasks and diving into data analysis and automation.",
+        "type": "learning"
+    },
+    {
+        "name": "TypeScript",
+        "image": "/assets/skills/typescript.png",
+        "description": "Currently learning to enhance maintainability and scalability of larger projects.",
+        "type": "learning"
+    },
+    {
+        "name": "Express",
+        "image": "/assets/skills/express.png",
+        "description": "Actively learning to strengthen my backend development expertise.",
+        "type": "learning"
+    },
+    {
+        "name": "Figma",
+        "image": "/assets/skills/figma.png",
+        "description": "Used for crafting intuitive wireframes and prototypes for web and mobile projects.",
+        "type": "core"
+    }
+]
