@@ -1,8 +1,10 @@
+import Banner from "../Components/Banner";
+
 const HomePage = () => {
     return (
-        <>
-        <h3>home page</h3>
-        </>
+        <section className="mx-auto w-11/12">
+            <Banner/>
+        </section>
     );
 };
 

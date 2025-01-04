@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "rosario" : ["Rosario", "serif"],
+        "playfair" : ["Playfair Display", "serif"],
+        "tangerine" : ["Tangerine", "serif"]
+      } 
+    },
   },
   plugins: [require('daisyui'),],
 
@@ -13,10 +19,10 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#09090b",
-          "secondary": "#323338",
-          "accent": "#ffffff",
-          "base": "#09090b"
+          "primary": "#695441",
+          "secondary": "#594b3a",
+          "accent": "#C1AA90",
+          "base-100": "#1D1915"
         }
       }
     ]
