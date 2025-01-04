@@ -20,7 +20,7 @@ export default {
       {
         mytheme: {
           "primary": "#695441",
-          "secondary": "#594b3a",
+          "secondary": "#ab7e51",
           "accent": "#C1AA90",
           "base-100": "#1D1915"
         }

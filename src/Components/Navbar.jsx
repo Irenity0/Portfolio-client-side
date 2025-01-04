@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <>
-        <div className="navbar w-11/12 mx-auto bg-base-100 text-accent">
-          <div className="navbar-start">
+        <div className="navbar fixed bg-secondary/40 text-accent">
+          <div className="navbar-start mr-10">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg
@@ -24,12 +24,12 @@ const Navbar = () => {
               <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a className="font-bold" href="#home">Home</a></li>
+                <li><a className="font-bold" href="#skills">Skills</a></li>
+                <li><a className="font-bold" href="#experience">Experience</a></li>
+                <li><a className="font-bold" href="#projects">Projects</a></li>
+                <li><a className="font-bold" href="#blogs">Blogs</a></li>
+                <li><a className="font-bold" href="#contact">Contact</a></li>
               </ul>
             </div>
             <Link to={'/'} className="text-2xl text-accent font-playfair font-extrabold">Afra Anjum.</Link>
@@ -39,12 +39,12 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
           <ul className="menu menu-horizontal hidden lg:flex px-1">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a className="font-bold" href="#home">Home</a></li>
+                <li><a className="font-bold" href="#skills">Skills</a></li>
+                <li><a className="font-bold" href="#experience">Experience</a></li>
+                <li><a className="font-bold" href="#projects">Projects</a></li>
+                <li><a className="font-bold" href="#blogs">Blogs</a></li>
+                <li><a className="font-bold" href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
