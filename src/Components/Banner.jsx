@@ -40,6 +40,8 @@ const Banner = () => {
                                 </span>
                             </p>
                         </div>
+                        <button className="btn btn-accent"><a target="blank" href="https://www.sample-videos.com/pdf/Sample-pdf-5mb.pdf">Resume</a></button>
+                       
                     </div>
                 </div>
 
