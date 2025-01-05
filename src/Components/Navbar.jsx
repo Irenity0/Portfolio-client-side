@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li><a className="font-bold" href="#skills">Skills</a></li>
                 <li><a className="font-bold" href="#experience">Experience</a></li>
                 <li><a className="font-bold" href="#projects">Projects</a></li>
-                <li><a className="font-bold" href="#blogs">Blogs</a></li>
+                <li><a className="font-bold" target="blank" href="https://irenity0.github.io/slient-pen/">Blogs</a></li>
                 <li><a className="font-bold" href="#contact">Contact</a></li>
             </ul>
           </div>
