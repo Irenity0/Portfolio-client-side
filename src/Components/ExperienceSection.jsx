@@ -1,14 +1,14 @@
 import useExperience from "../hooks/useExperience";
 
 const ExperienceSection = () => {
-    const { experience, loading, error } = useExperience(); // Destructure experience, loading, and error
+    const { experience, loading, error } = useExperience(); 
 
     if (loading) {
-        return <p>Loading...</p>; // Handle loading state
+        return <p>Loading...</p>; 
     }
 
     if (error) {
-        return <p className="text-red-500">{error}</p>; // Display error message if fetching fails
+        return <p className="text-red-500">{error}</p>;
     }
 
     return (

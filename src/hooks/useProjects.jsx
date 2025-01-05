@@ -5,11 +5,10 @@ const useProjects = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Replace with the actual path to your JSON file or an API endpoint
         fetch("./projects.json")
             .then((res) => res.json())
             .then((data) => {
-                setProjects(data.projects); // Assuming your JSON structure has a 'projects' key
+                setProjects(data.projects); 
                 setLoading(false);
             })
             .catch((error) => {

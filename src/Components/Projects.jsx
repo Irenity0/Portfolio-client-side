@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"; // Import Link for navigation
+import { Link } from "react-router-dom"; 
 import useProjects from "../hooks/useProjects";
 
 const ProjectSection = () => {
-    const { projects, loading } = useProjects(); // Fetching projects using a custom hook
+    const { projects, loading } = useProjects(); 
 
     if (loading) {
-        return <p>Loading...</p>; // Handle loading state
+        return <p>Loading...</p>; 
     }
 
     return (
@@ -25,7 +25,7 @@ const ProjectSection = () => {
                 {projects.map((project) => (
                     <Link
                         key={project.id}
-                        to={`/projects/${project.id}`} // Navigate to project details page
+                        to={`/projects/${project.id}`}
                     >
                         <div className="relative rounded-lg shadow-lg bg-secondary/10 overflow-hidden group">
                             <img

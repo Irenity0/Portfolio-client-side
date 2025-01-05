@@ -1,13 +1,26 @@
+import { motion } from "framer-motion";
 import book from '../assets/book.png';
 import read from '../assets/coffee.png';
 
 const AboutHobbies = () => {
     return (
         <section className="about-hobbies mx-auto">
-            <h1 className="text-5xl text-right text-accent font-semibold font-playfair underline">When I am not Coding</h1>
+            <motion.h1
+                className="text-5xl text-right text-accent font-semibold font-playfair underline"
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
+            >
+                When I am not Coding
+            </motion.h1>
             <div className="mt-8 flex flex-col gap-12">
                 {/* Reading Section (Text and Image Layout) */}
-                <div className="flex flex-col md:flex-row lg:flex-row-reverse gap-8 items-start">
+                <motion.div
+                    className="flex flex-col md:flex-row lg:flex-row-reverse gap-8 items-start"
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.2 }}
+                >
                     {/* Text */}
                     <div className="md:w-2/3 lg:w-2/3">
                         <h2 className="text-2xl lg:text-right text-accent font-playfair mb-2">My Reading Hobbies~ ✨</h2>
@@ -23,10 +36,15 @@ const AboutHobbies = () => {
                             className="rounded-lg max-w-sm"
                         />
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Writing Section (Text and Image Layout) */}
-                <div className="flex flex-col md:flex-row-reverse gap-8 items-end">
+                <motion.div
+                    className="flex flex-col md:flex-row-reverse gap-8 items-end"
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.4 }}
+                >
                     {/* Text */}
                     <div className="md:w-2/3 lg:w-2/3">
                         <h2 className="text-2xl text-right text-accent font-playfair mb-2">And My Love for Writing ✒️</h2>
@@ -44,7 +62,7 @@ const AboutHobbies = () => {
                             className="rounded-lg max-w-sm"
                         />
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );
