@@ -1,6 +1,6 @@
 const AboutWebDev = () => {
     return (
-        <section>
+        <section id="about">
             <h1 className="text-5xl underline text-left text-accent font-semibold font-playfair">How I got into WebDev</h1>
             <br />
             <p className="text-secondary font-rosario text-lg lg:w-2/3">It happened on a random day in 2017-2018, I stumbled upon <i>web development</i>. I was 8 at the time and I was (still am) a really creative child. I started to make stuff with html and css only at that time. Then, I lost my <i>flow</i> due to school and some personal problems (Average Asian situation) 

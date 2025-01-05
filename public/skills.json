@@ -2,59 +2,72 @@
     "core": [
         {
             "name": "HTML & CSS",
-            "description": "Form the foundation of my web development work, enabling me to create structured and visually appealing interfaces."
+            "description": "Form the foundation of my web development work, enabling me to create structured and visually appealing interfaces.",
+            "icon": "https://i.ibb.co.com/MBgFzrL/html.png"
         },
         {
             "name": "JavaScript",
-            "description": "The backbone of interactive and dynamic web applications I build."
+            "description": "The backbone of interactive and dynamic web applications I build.",
+            "icon": "https://i.ibb.co.com/qFhpNqt/js.jpg"
         },
         {
             "name": "React",
-            "description": "I use it to create scalable and reusable user interface components."
+            "description": "I use it to create scalable and reusable user interface components.",
+            "icon": "https://i.ibb.co.com/LSXz43y/react.png"
         },
         {
             "name": "TailwindCSS",
-            "description": "Helps me rapidly style modern web interfaces with a utility-first approach."
+            "description": "Helps me rapidly style modern web interfaces with a utility-first approach.",
+            "icon": "https://i.ibb.co.com/xhYs4nC/e5bf06f7-f7d7-43af-81f0-bf6e0cdc0cc0.png"
         },
         {
             "name": "Figma",
-            "description": "A vital tool for wireframing and prototyping design ideas collaboratively."
+            "description": "A vital tool for wireframing and prototyping design ideas collaboratively.",
+            "icon": "https://i.ibb.co.com/nsZ183n/6305c3ef-48d1-49d8-8849-e13e4165da47.png"
         }
     ],
     "learning": [
         {
             "name": "TypeScript",
-            "description": "I'm learning it to add type safety and maintainability to JavaScript projects."
+            "description": "I'm learning it to add type safety and maintainability to JavaScript projects.",
+            "icon": "https://i.ibb.co.com/hD5tFb7/ts.jpg"
         },
         {
             "name": "Node.js",
-            "description": "Currently exploring its potential for building efficient server-side applications."
+            "description": "Currently exploring its potential for building efficient server-side applications.",
+            "icon": "https://i.ibb.co.com/j6kQ3Yv/Node-js-Logo-PNG-Vector-SVG-Free-Download.jpg"
         },
         {
             "name": "Express.js",
-            "description": "I'm learning how to simplify backend development and API handling with it."
+            "description": "I'm learning how to simplify backend development and API handling with it.",
+            "icon": "https://i.ibb.co.com/vBhKDkC/express-js-Logo-PNG-Vector-SVG-Free-Download.jpg"
         },
         {
             "name": "MongoDB",
-            "description": "Diving into its usage for creating flexible and scalable databases."
+            "description": "Diving into its usage for creating flexible and scalable databases.",
+            "icon": "https://i.ibb.co.com/R7RCYYW/0c9da6bd-3a7c-4099-a811-fcfcf6f8c556.jpg"
         },
         {
             "name": "Python",
-            "description": "Studying its versatility for scripting and exploring automation opportunities."
+            "description": "Studying its versatility for scripting and exploring automation opportunities.",
+            "icon": "https://i.ibb.co.com/0YY8dP4/4f6b7512-d964-4c8e-803b-cdf7f7140d8b.png"
         }
     ],
     "learnt": [
         {
             "name": "Bootstrap",
-            "description": "Previously used it for rapid UI development but have since moved to other tools."
+            "description": "Previously used it for rapid UI development but have since moved to other tools.",
+            "icon": "https://i.ibb.co.com/VwcB6Rq/download-11.jpg"
         },
         {
             "name": "Sass",
-            "description": "Once a go-to for advanced CSS styling but now replaced by utility-first CSS frameworks."
+            "description": "Once a go-to for advanced CSS styling but now replaced by utility-first CSS frameworks.",
+            "icon": "https://i.ibb.co.com/J58hfwd/27742ad8-6e34-4a3f-9897-4fb4b4246212.png"
         },
         {
             "name": "jQuery",
-            "description": "Learned during early development projects but no longer a primary tool."
+            "description": "Learned during early development projects but no longer a primary tool.",
+            "icon": "https://i.ibb.co.com/F5nHLkg/f7e8b749-faab-45b5-a86b-7eba6389a6af.png"
         }
     ]
 }

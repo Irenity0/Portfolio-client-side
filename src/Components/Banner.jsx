@@ -3,7 +3,7 @@ import Tag from "./Tag";
 const Banner = () => {
     
     return (
-      <div className="bg-neutral text-primary py-16">
+      <div id="home" className="bg-neutral text-primary py-16">
         <div className="flex mt-10 flex-col justify-between md:flex-row items-center gap-8">
           {/* Left Column: text */}
           <div className="md:w-1/2">
@@ -19,6 +19,10 @@ const Banner = () => {
            <br /><br />
            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, dicta! Sapiente quam temporibus quasi veniam sint similique tenetur cumque nobis, repudiandae odit, iusto in dicta illum maiores, officia possimus soluta?
            </p>
+           <div>
+            <p className="text-lg text-accent font-bold">Let&apos;s connect <span className="underline"><a target="_blank" href="https://www.linkedin.com/in/afra-anjum-653153329/">Linkedin</a></span> <span className="underline"><a target="_blank" href="https://github.com/Irenity0">Github</a></span>
+            </p>
+           </div>
             </div>
           </div>
   

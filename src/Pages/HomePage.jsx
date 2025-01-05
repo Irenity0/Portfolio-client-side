@@ -1,6 +1,7 @@
 import AboutHobbies from "../Components/AboutHobbies";
 import AboutWebDev from "../Components/AboutWebDev";
 import Banner from "../Components/Banner";
+import ExperienceSection from "../Components/ExperienceSection";
 import SkillSection from "../Components/SkillSection";
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
             <Banner/>
             <AboutWebDev/>
             <AboutHobbies/>
+            <ExperienceSection/>
             <SkillSection/>
         </section>
     );

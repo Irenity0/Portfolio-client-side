@@ -1,0 +1,50 @@
+{
+    "experience": [
+        {
+            "title": "WordPress Developer",
+            "client": "Md.Zahid",
+            "duration": "2024 - 2024",
+            "description": [
+                "Developed and maintained custom WordPress themes and plugins for diverse client needs.",
+                "Optimized website performance, reducing load times by 40% using best practices and tools.",
+                "Integrated third-party APIs to enhance website functionality and user experience.",
+                "Worked closely with clients to gather requirements and ensure satisfaction with the final product.",
+                "Provided training and documentation for clients to manage their WordPress sites independently."
+            ]
+        },
+        {
+            "title": "Content Writer",
+            "client": "Md.Zahid",
+            "duration": "2023 - 2024",
+            "description": [
+                "Crafted engaging blog posts, articles, and website copy tailored to various industries.",
+                "Conducted thorough research to ensure accurate and well-informed content.",
+                "Collaborated with the SEO team to create keyword-optimized articles, improving search rankings by 30%.",
+                "Developed a comprehensive content calendar and managed deadlines effectively.",
+                "Generated creative ideas for social media campaigns, boosting audience engagement by 25%."
+            ]
+        },
+        {
+            "title": "Content Writer",
+            "client": "DataSAT",
+            "duration": "2023 - 2024",
+            "description": [
+                "Created technical whitepapers and case studies focusing on satellite and telecommunications solutions.",
+                "Developed high-quality blog posts to increase website traffic by 35%.",
+                "Worked with engineers and industry experts to write user manuals and guides for DataSAT products.",
+                "Streamlined content management processes, reducing production timelines by 20%."
+            ]
+        },
+        {
+            "title": "Content Writer",
+            "client": "Kanon Ahmed",
+            "duration": "2023 - 2024",
+            "description": [
+                "Delivered creative and persuasive content for e-commerce product descriptions and marketing materials.",
+                "Designed compelling email campaigns that increased click-through rates by 40%.",
+                "Researched consumer trends to create blogs that aligned with client branding and audience needs.",
+                "Helped establish a consistent voice across the client’s online platforms."
+            ]
+        }
+    ]
+}
