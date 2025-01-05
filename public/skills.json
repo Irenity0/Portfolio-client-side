@@ -1,56 +1,60 @@
-[
-    {
-        "name": "JavaScript",
-        "image": "/assets/skills/javascript.png",
-        "description": "I utilize it to craft dynamic and interactive web applications with clean and efficient code.",
-        "type": "core"
-    },
-    {
-        "name": "React",
-        "image": "/assets/skills/react.png",
-        "description": "Focused on building reusable components and optimizing performance in web applications.",
-        "type": "core"
-    },
-    {
-        "name": "Node.js",
-        "image": "/assets/skills/nodejs.png",
-        "description": "Currently exploring its capabilities for developing robust server-side applications.",
-        "type": "learning"
-    },
-    {
-        "name": "MongoDB",
-        "image": "/assets/skills/mongodb.png",
-        "description": "Used for designing scalable databases and managing flexible data structures effectively.",
-        "type": "core"
-    },
-    {
-        "name": "HTML & CSS",
-        "image": "/assets/skills/html-css.png",
-        "description": "Applied for building visually appealing and well-structured modern web interfaces.",
-        "type": "core"
-    },
-    {
-        "name": "Python",
-        "image": "/assets/skills/python.png",
-        "description": "Primarily utilized for scripting tasks and diving into data analysis and automation.",
-        "type": "learning"
-    },
-    {
-        "name": "TypeScript",
-        "image": "/assets/skills/typescript.png",
-        "description": "Currently learning to enhance maintainability and scalability of larger projects.",
-        "type": "learning"
-    },
-    {
-        "name": "Express",
-        "image": "/assets/skills/express.png",
-        "description": "Actively learning to strengthen my backend development expertise.",
-        "type": "learning"
-    },
-    {
-        "name": "Figma",
-        "image": "/assets/skills/figma.png",
-        "description": "Used for crafting intuitive wireframes and prototypes for web and mobile projects.",
-        "type": "core"
-    }
-]
+{
+    "core": [
+        {
+            "name": "HTML & CSS",
+            "description": "Form the foundation of my web development work, enabling me to create structured and visually appealing interfaces."
+        },
+        {
+            "name": "JavaScript",
+            "description": "The backbone of interactive and dynamic web applications I build."
+        },
+        {
+            "name": "React",
+            "description": "I use it to create scalable and reusable user interface components."
+        },
+        {
+            "name": "TailwindCSS",
+            "description": "Helps me rapidly style modern web interfaces with a utility-first approach."
+        },
+        {
+            "name": "Figma",
+            "description": "A vital tool for wireframing and prototyping design ideas collaboratively."
+        }
+    ],
+    "learning": [
+        {
+            "name": "TypeScript",
+            "description": "I'm learning it to add type safety and maintainability to JavaScript projects."
+        },
+        {
+            "name": "Node.js",
+            "description": "Currently exploring its potential for building efficient server-side applications."
+        },
+        {
+            "name": "Express.js",
+            "description": "I'm learning how to simplify backend development and API handling with it."
+        },
+        {
+            "name": "MongoDB",
+            "description": "Diving into its usage for creating flexible and scalable databases."
+        },
+        {
+            "name": "Python",
+            "description": "Studying its versatility for scripting and exploring automation opportunities."
+        }
+    ],
+    "learnt": [
+        {
+            "name": "Bootstrap",
+            "description": "Previously used it for rapid UI development but have since moved to other tools."
+        },
+        {
+            "name": "Sass",
+            "description": "Once a go-to for advanced CSS styling but now replaced by utility-first CSS frameworks."
+        },
+        {
+            "name": "jQuery",
+            "description": "Learned during early development projects but no longer a primary tool."
+        }
+    ]
+}

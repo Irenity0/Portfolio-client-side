@@ -1,7 +1,8 @@
+// useSkills.jsx
 import { useState, useEffect } from "react";
 
 const useSkills = () => {
-    const [skills, setSkills] = useState([]);
+    const [skills, setSkills] = useState({});
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -17,7 +18,7 @@ const useSkills = () => {
             });
     }, []);
 
-    return { skills, loading }; // Return an object for easier destructuring
+    return { skills, loading };
 };
 
 export default useSkills;
