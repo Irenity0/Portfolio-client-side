@@ -1,6 +1,7 @@
 import AboutHobbies from "../Components/AboutHobbies";
 import AboutWebDev from "../Components/AboutWebDev";
 import Banner from "../Components/Banner";
+import ContactSection from "../Components/Contact";
 import ExperienceSection from "../Components/ExperienceSection";
 import SkillSection from "../Components/SkillSection";
 
@@ -12,6 +13,7 @@ const HomePage = () => {
             <AboutHobbies/>
             <ExperienceSection/>
             <SkillSection/>
+            <ContactSection/>
         </section>
     );
 };
