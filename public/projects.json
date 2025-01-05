@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Oh Studio",
+      "banner": "https://i.ibb.co.com/jyn2mp8/download.png",
+      "description": "A web application designed to streamline business processes and improve productivity.",
+      "lore": "Built with a focus on automation, Project A is aimed at reducing manual tasks and simplifying complex workflows.",
+      "tech": ["React", "Node.js", "MongoDB", "Express"],
+      "lackings": [
+        "The project lacks a comprehensive testing suite for edge cases.",
+        "There is a need for more user customization options.",
+        "Scalability could be an issue under heavy traffic."
+      ],
+      "challenges": [
+        "Integrating the third-party API with the app was more complicated than anticipated.",
+        "Managing state across multiple components without performance issues was a constant challenge.",
+        "Ensuring data synchronization between the front-end and back-end presented unforeseen difficulties."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "KanaQuest",
+      "banner": "https://i.ibb.co/Xp3kZbS/kanaquest-banner.png",
+      "description": "KanaQuest is an immersive and gamified language learning application crafted to assist users in mastering Japanese vocabulary and communication skills. Learning a new language often comes with its own set of challenges, particularly when it comes to remembering vocabulary. KanaQuest aims to make this journey easier by offering interactive exercises, flashcards, and real-world examples. With a user-friendly interface, you can start learning at the tap of a button. The app leverages Firebase for seamless user authentication, ensuring a secure and personalized experience. Whether you're a beginner or brushing up your skills, KanaQuest provides a comprehensive learning environment to help you achieve fluency in Japanese while having fun.",
+      "lore": "After submitting a terrible assignment (even though I got 60/60), I was feeling restless. I felt like I needed more practice. Then I chose another version of the assignment I had submitted earlier. Surprisingly it turned out way better than the actual assignment I did.",
+      "tech": ["React", "Firebase", "Tailwind"],
+      "lackings": [
+        "Limited offline access for vocabulary exercises.",
+        "No voice recognition for pronunciation practice.",
+        "Progress tracking lacks advanced analytics for detailed feedback."
+      ],
+      "challenges": [
+        "Ensuring smooth integration of Firebase authentication and data storage.",
+        "Designing an intuitive interface suitable for all age groups."
+      ]
+    },    
+    {
+      "id": 3,
+      "name": "FundWave",
+      "banner": "https://i.ibb.co.com/Hp1bgNK/download-2.png",
+      "description": "An e-commerce platform that focuses on seamless shopping experiences.",
+      "lore": "Project C was conceived to revolutionize online shopping by reducing friction at every step, from browsing to checkout.",
+      "tech": ["Vue.js", "Ruby on Rails", "PostgreSQL"],
+      "lackings": [
+        "Limited payment gateway integrations available.",
+        "No real-time chat support for customer service.",
+        "Inventory management features are still basic."
+      ],
+      "challenges": [
+        "Building a seamless user experience across different browsers was a technical hurdle.",
+        "Handling high-volume transactions during flash sales caused occasional slowdowns.",
+        "Maintaining consistency in product listings across multiple categories proved challenging."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Recoverly",
+      "banner": "https://i.ibb.co.com/YfrJZGq/download-3.png",
+      "description": "A social platform for artists to share and collaborate on creative projects.",
+      "lore": "Project D aims to create a community where artists of all kinds can come together, showcase their work, and collaborate with others.",
+      "tech": ["Angular", "Django", "SQLite"],
+      "lackings": [
+        "Limited social interaction features such as comments and likes.",
+        "No direct messaging functionality between users.",
+        "The mobile version of the platform is not fully responsive."
+      ],
+      "challenges": [
+        "Integrating a collaborative whiteboard tool into the platform was time-consuming.",
+        "Ensuring the platform's real-time collaboration features worked seamlessly was tricky.",
+        "Managing the large number of images and videos uploaded by users created storage and performance challenges."
+      ]
+    }
+  ]
+}

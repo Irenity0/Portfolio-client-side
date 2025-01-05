@@ -3,6 +3,7 @@ import AboutWebDev from "../Components/AboutWebDev";
 import Banner from "../Components/Banner";
 import ContactSection from "../Components/Contact";
 import ExperienceSection from "../Components/ExperienceSection";
+import ProjectSection from "../Components/Projects";
 import SkillSection from "../Components/SkillSection";
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
             <AboutHobbies/>
             <ExperienceSection/>
             <SkillSection/>
+            <ProjectSection/>
             <ContactSection/>
         </section>
     );
